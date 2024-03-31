@@ -7,7 +7,7 @@ brave_path = 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brav
 
 
 try: 
-    product_info=open("takealot_products.txt","r") 
+    product_info=open("takealot_products.txt","r") #Obtaining the stored product Link
     
     product_info=[i.strip() for i in product_info]
     
